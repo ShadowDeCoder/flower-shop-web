@@ -10,10 +10,10 @@
     gap: 10px;
     color: white;
     font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 
@@ -21,6 +21,7 @@ line-height: normal;
 .header
 {
     background: #E554731A;
+    margin-bottom: 178px;
 }
 
 .banner
@@ -63,4 +64,102 @@ line-height: normal;
     /* width: 650px; */
     margin-top: 50px;
     margin-right: 200px;
+}
+
+/* *****************        feature section       ****************** */
+
+.feature-content
+{}
+
+.feature-title
+{
+    margin-left: 764px;
+    margin-right: 764px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-description
+{
+
+    margin-left: 564px;
+    margin-right: 564px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+.feature-item-container
+{
+    margin: 0px 260px 128px 260px;
+    display: flex;
+}
+
+.flower-item1,
+.flower-item2,
+.flower-item3
+{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    margin-right: 24px;
+
+}
+
+.flower-item1
+{
+    background: #A7216226;
+}
+
+.flower-item2
+{
+    background: #0597A026;
+}
+
+.flower-item3
+{
+    background: #477D1126;
+}
+
+.pink-rose
+{
+    margin-bottom: 0px;
+    width: 310px;
+    height: 428px;
+    margin-left: 76px;
+    margin-top: 110px;
+    margin-right: 78px;
+}
+
+.red-rose
+{
+    margin: 117px 47px 51px 47px;
+}
+
+.yellow-rose
+{
+    margin: 67px 75px 0 75px;
+}
+
+.flower-name
+{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
