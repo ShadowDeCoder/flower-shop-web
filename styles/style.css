@@ -163,3 +163,34 @@
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+
+/* service sections  */
+.service
+{
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 240px;
+    margin-bottom: 128px;
+    padding: 86px 75px;
+}
+
+.service-item
+{
+    margin: 0 100px;
+    text-align: center;
+}
+
+.service-name
+{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 35px; */
+}
